@@ -1,0 +1,69 @@
+body {
+    background-image: url(https://i.postimg.cc/brcq76vW/background.png);
+    font-family: "alfaslabone-regular";
+    
+}
+
+form {
+    padding: 30px;
+    width: 25%;
+    height: 650px;
+    border-radius: 3%;
+    box-shadow: #80673a 0px 0px 10px;
+    background-color: rgb(235, 235, 235);
+    position: absolute;
+    top: 22%;
+    right: 37%;
+}
+form>p {
+    font-size: 40px;
+    font-weight: 900;
+    position: absolute;
+    top: 7%;
+    right: 40%;
+    color: rgba(61, 37, 20, 1);
+}
+.container-input {
+    margin: 110px 0px 50px ;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+input,button {
+    width: 100%;
+    height: 70px;
+    outline: none;
+    border: none;
+}
+input {
+    border-bottom: rgb(170, 167, 167) 3px solid;
+    padding-left: 20px;
+}
+input:focus {
+    border: rgb(170, 167, 167) 3px solid;
+}
+button {
+    background:#f8c152;
+    box-shadow: #80673a 0px 0px 20px inset;
+    color: rgba(61, 37, 20, 1);
+    font-weight: 900;
+}
+button:hover {
+    box-shadow: #80673a 0px 0px 20px;
+
+}
+.link-login-page {
+    width: 80%;
+    height: 100px;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.link-login-page p{
+    font-size: 15px;
+    font-weight: 600;
+}

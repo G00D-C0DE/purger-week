@@ -1,0 +1,196 @@
+
+body {
+    font-family: "alfaslabone-regular";
+    box-sizing: border-box;
+    background-color: #ffc757;
+}
+/* start header */
+header {
+    width: 90%;
+    height: 50px;
+    margin:10px auto;
+    background-color: #ffa900;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 5px;
+    right: 5%;
+    border: dashed 1px rgba(61, 37, 20, 0.9);
+    z-index: 1;
+}
+a {
+    text-decoration: none;
+    color: rgba(61, 37, 20, 0.9);
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+.img-logo-title {
+    width: 13%;
+    height: 38px;
+    position: relative;
+    top: 10%;
+    left: 4%;
+}
+.delivery-contain {
+    display: inline-block;
+    width: 22%;
+    height: 50px;
+    position: relative;
+    top: 8px;
+    left: 0px;
+    
+}
+.P-delivery {
+    font-size: 1vw;
+    font-weight: bolder;
+    color: rgba(61, 37, 20,0.9);
+    display: inline;
+}
+.icon-delivery {
+    width: 13%;
+    height: 33px;
+    display: inline;
+}
+.div-links {
+    width: 40%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    right: -40px;
+    top: 0px;
+}
+     /* end header */
+
+     /* start drop dawn*/
+   
+.container-menu-div-links {
+        width: 52px;
+        height: 23px;
+        position: relative;
+        top: -4px;
+    }
+.div-links ul {
+    background-color: #ffa900;
+    padding: 5px;
+    width: 130px;
+    height: 200px;
+    z-index: 1;
+    position: absolute;
+    top: 35px;
+    left: -42px;
+    display: none;
+    border: dashed 1px rgba(61, 37, 20, 0.9);
+}
+.div-links ul::after {
+    content: "";
+    border-width: 10px;
+    border-color: transparent transparent rgba(61, 37, 20, 0.9) transparent;
+    border-style: solid;
+    width: 0px;
+    position: absolute;
+    top: -20px;
+    left: 40%;
+}
+.container-menu-div-links:hover ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.div-links li {
+    background-color: #ffc757;
+    list-style: none;
+    padding: 5px 5px 5px 10px;
+    text-align: left;
+    transition: 1s;
+}
+.div-links li:hover {
+    padding-left: 40px;
+    
+}
+/* end drop dawn*/
+
+   /* start card */
+   .container-cards {
+    background: #ffaa00;
+    width: 60%;
+    margin: -89px auto;
+    padding: 200px 20px 20px 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 70px;
+    column-gap: 50px;
+    justify-content: space-between;
+    justify-items: center;
+}
+.card-one {
+    width: 400px;
+    background-color: rgb(216, 216, 216);
+    border-radius: 40px;
+    padding: 15px;
+    position: relative;
+    
+}
+.img-card-one {
+    width: 90%;
+    height: 250px;
+}
+.card-one  hr {
+    height: 3px;
+    background-color: rgba(61, 37, 20, 0.9);
+}
+p,
+h2,
+.button-card-one,
+strong,
+del {
+    margin-left: 25px;
+    font-weight: 900;
+    color: rgba(61, 37, 20, 0.9);
+}
+strong,
+del {
+    margin-left: 70px;
+}
+
+strong {
+    font-size: 35px;
+    color: rgb(177, 27, 27);
+    margin-left: 25px;
+   
+}
+del  {
+   font-size: 25px;
+   margin-left: 35px;
+}
+.button-card-one {
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #ffaa00;
+    color: rgb(177, 27, 27);
+    position: relative;
+    animation-name: button-card-one;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+.button-card-one:hover {
+    position: relative;
+    box-shadow: 0px 0px 10px rgba(61, 37, 20, 0.9) inset;
+    animation-play-state: paused;
+}
+
+@keyframes button-card-one{
+  
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 200px;
+    }
+
+}
+ /*end card*/
